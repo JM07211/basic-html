@@ -51,7 +51,7 @@ h1 {
     display: flex;
 }
 
-.nav-list>.nav-item ~. {
+.nav-list>.nav-item ~.nav-item::before{
     content: "";
     width: 2px;
     height: 10px;
@@ -60,4 +60,7 @@ h1 {
     margin: 0 4px;
 }
 
-.nav-list >.nav-home  ::before
+.nav-list >.nav-item ~ .nav-item::after{
+    content: "";
+}
+
