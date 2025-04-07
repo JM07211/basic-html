@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+h1 {
+     color: aqua; fond size: 10px
+    ;}
+
+    #home {
+      background-color:fuchsia ;
+      color: white;
+
+    }
+
+    .section {
+        background-color: navy;
+    }
+
+    #home {
+        background-color:aqua;
+    } 
+
+.nav-item{
+        list-style: none;
+}
+    
+.nav-home{
+    color: blue;
+}
+
+.nav-home button{
+    color: blue;
+}
+
+.nav-home > button{
+    color:blue;
+}
+
+.nav-home ~ .nav-item{
+    background-color: beige;
+}
+
+.main-description + .cta-button{
+    background-color: blue;
+    color: white;
+    transition: all 1s;
+}
+.main-description + .cta-button:hover{
+    background-color: hotpink;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list>.nav-item ~. {
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: grey;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.nav-list >.nav-home  ::before
