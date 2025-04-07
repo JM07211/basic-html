@@ -11,5 +11,108 @@
       <p>p태그 작성중..</p>
       <a href="https://www.naver.com" target="_blank">네이버 링크로 이동</a>
     </div>
+
+    <div>
+      <h1>제목태그 1</h1>
+      <h2>제목태그 2</h2>
+      <h3>제목태그 3</h3>
+      <h4>제목태그 4</h4>
+      <h5>제목태그 5</h5>
+      <h6>제목태그 6</h6>
+    </div>
+
+    <div>
+      <p>
+        Lorem, ipsum <strong>dolor</strong> sit amet consectetur adipisicing
+        elit. Aut quas quisquam perspiciatis ratione voluptatem ipsam nisi esse,
+        rem ducimus, cumque culpa officia dolor vero hic laudantium id natus ab.
+        Aut ipsa officia ipsam earum dolorum mollitia dolor ipsum fugiat
+        consectetur, tempora, architecto sint optio aspernatur doloribus
+        suscipit repellat deleniti <span style="color: red">error</span>!
+      </p>
+    </div>
+
+    <div>
+      <img
+        src="https://plus.unsplash.com/premium_photo-1680100255906-09ffdc2eeaaf?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2MXx8fGVufDB8fHx8fA%3D%3D"
+        alt="테이블과 의자 2개가 있는 주방"
+      />
+    </div>
+
+    <!-- 순서가 있는 리스트 -->
+    <ol>
+      <li>첫번째 아이템</li>
+      <li>두번째 아이템</li>
+      <li>세번째 아이템</li>
+    </ol>
+
+    <!-- 순서가 없는 리스트 -->
+    <ul>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+      <li>List 5</li>
+    </ul>
+
+    <!-- login form 요소 -->
+    <h3>로그인</h3>
+    <form style="border: 2px solid blue">
+      <label for="UserID">아이디 : </label>
+      <input
+        type="text"
+        name="UserID"
+        placeholder="사용자 아이디"
+        id="UserID"
+        required
+      />
+      <br />
+      <label for="password">비밀번호 :</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="사용자 비밀번호"
+      />
+      <input type="submit" value="로그인" />
+    </form>
+
+    <!-- 구분선 -->
+    <hr />
+
+    <!-- 체크박스, 라디오, select태그 -->
+    <form style="border: 2px solid red">
+      <p>취미를 선택하세요</p>
+      <input type="checkbox" , name="hobby" value="reading" id="reading" />
+      <label for="reading">독서</label>
+
+      <input
+        type="checkbox"
+        ,
+        name="hobby"
+        value="watching tv"
+        id="watching tv"
+      />
+      <label for="watching tv">TV보기</label>
+
+      <input type="checkbox" , name="hobby" value="coding" id="coding" />
+      <label for="coding"> 코딩하기</label>
+
+      <p>성별을 선택해주세요</p>
+      <input type="radio" name="gender" value="male" , id="male" />
+      <label for="male">남자</label>
+
+      <input type="radio" name="gender" value="female" , id="female" />
+      <label for="female">여자</label>
+      <br />
+      <br />
+      <label for="food">음식선택 :</label>
+      <select name="food" id="food">
+        <option value="">선택해주세요</option>
+        <option value="tteokppokki" selected>떡볶이</option>
+        <option value="chichek">치킨</option>
+      </select>
+      <button type="submit">제출하기</button>
+    </form>
   </body>
 </html>
